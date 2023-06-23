@@ -1,0 +1,537 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background:rgb(0, 75, 128);
+}
+header{
+    border: 2px solid rgb(0, 75, 128);
+    height: 10vh;
+    width: 100%;
+    z-index: 2;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    padding-right: 30px;
+
+}
+header nav ul li a{
+    color:black;
+    font-size: 20px;
+
+}
+header nav li a:hover{
+    font-size: 24px;
+    color: rgb(0, 75, 128)      ;
+
+}
+header nav ul li :hover{
+    transition: all 0.20s ease-in;
+}
+header nav a{
+    text-decoration:  none;
+}
+header nav ul li button{
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: transparent;
+    outline: none;
+    border: 2px solid black;
+    color: black;
+    font-weight: 500;
+}
+header nav ul li button:hover{
+    background:rgb(0, 75, 128);
+    transition: all 0.40s linear;
+    color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+.logo h1{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+}
+.home-contain{
+    width: 100%;
+    height: 80vh;
+}
+.brand-text{
+    height: 50vh;
+    width:40% ;
+    margin-top: 130px;
+}
+.brand-text h2{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: black;
+
+}
+.brand-text h2 p{
+    font-size: 60px;
+    color: rgb(255, 255, 252);
+   
+}
+.brand-text h3{
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.brand-text button{
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 25px;
+    cursor: pointer;
+    color: black;
+    width: 30%;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+}
+.down-icon{
+    width: 20%;
+    height: 4vh;
+    float: left; 
+}
+.brand-text button:hover{
+    font-size: 18px;
+    background:whitesmoke;
+    transition: all 0.40s linear;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.image-wrap{
+    border:  4px solid whitesmoke;
+    float: right;
+    width: 36%;
+    margin-top: -350px;
+    height:65vh;
+    margin-right: 70px;
+    border-radius: 50%;
+}
+.image-wrap img{
+    height: 100%;
+    border-radius: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.about-wrap{
+    height: 100vh;
+    width: 100%;
+    background: white;
+}
+.about-text{
+    width: 20%;
+    margin: auto;
+    height: 10vh;
+    margin-top: 20px;
+}
+.about-text h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    color: black;
+}
+.main-about-me{
+    width: 30%;
+    float: left;
+    height: 70vh;
+    margin-left: 30px;
+
+}
+.my-image{
+    border: 5px solid black;
+    margin-top: 20px;
+    height: 70vh;
+    border-radius: 20px;
+    width: 27%;
+    border-color: rgb(0, 75, 128);
+}
+.my-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.my-text{
+    border: 3px solid black;
+    height: 40vh;
+    margin-top: 140px;
+    width: 32%;
+    border-radius: 5px;
+    border-color:rgb(0, 75, 128) ;
+}
+.web-develop{
+    width: 100%;
+    height: 15vh;
+    margin-top: 20px;
+}
+.web-develop h2{
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.web-develop h3{
+    font-size: 27px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+ 
+}
+.my-text p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.my-skills{
+    height: 60vh;
+    margin-top:40px;
+    width: 33%;
+}
+.skills-text{
+    border: 3px solid black;
+    width: 100%;
+    height: 55vh;
+    border-radius: 5px;
+    border-color:rgb(0, 75, 128)  ;
+}
+.main-skill-text{
+    border: 2px solid black;
+    width: 40%;
+    height: 7vh;
+    margin: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: rgb(0, 75, 128);
+}
+.main-text-wrap{
+    margin-top: 100px;
+    
+}
+
+.main-skill-text{
+    font-size: 30px;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+.main-skills{
+    width: 100%;
+    height: 10vh;
+
+}
+.skills-words{
+    width: 100%;
+    height: 5.5vh;
+    
+}
+.skills-words p{
+    font-size: 20px;
+    color: blue;
+}
+li{
+    float: left;
+    margin-left: 30px;
+}
+hr{
+    height: 5px;
+    background:rgb(0, 75, 128);
+    border-radius: 20px;
+    border: none;
+}
+.html{
+    animation: loader 2s;
+    width: 80%;
+}
+.css{
+    animation: css-load 2s;
+    width: 70%;
+}
+.wp{
+    animation: wp-load 2s;
+    width: 45%;
+}
+@keyframes loader{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80;
+    }
+}
+@keyframes css-load{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+@keyframes wp-load{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 45%;
+    }
+}
+.skills-words h6{
+    width: 10%;
+    float: right;
+    margin-top: -25px;
+    font-size: 17px;
+}
+.services-wrap{
+    width: 100%;
+    height: 85vh;
+}
+.what-i-do-wrap{
+    width: 30%;
+    margin: auto;
+    height: 10vh;
+    margin-top: 20px;
+}
+.what-i-do-wrap h2{
+    font-size: 55px;
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(255, 255, 252);
+}
+.main-service-wrap{
+    border: 3px solid black;
+    float: left;
+    width: 30%;
+    height: 50vh;
+    margin-top: 70px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 252);
+}
+.web-own{
+    width: 30%;
+    margin: auto;
+    height: 10vh;
+    background: whitesmoke;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.service-head{
+    margin: auto;
+    width: 100%;
+    height: 10vh;
+    margin-top: 20px;
+}
+.service-head h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.services-text{
+    height: 20vh;
+}
+.services-text p{
+    font-size: 20px;
+    color: whitesmoke;
+}
+.web-own img{
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+}
+.my-blog-wrap{
+    width: 100%;
+    height: 150vh;
+}
+.mi-blog{
+    width: 40%;
+    margin-left: 100px;
+    height: 10vh;
+    color: whitesmoke;
+    
+    
+}
+.mi-blog h2{
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+.project-wrap{
+    width: 100%;
+    height: 130vh;
+    margin-top: 50px;
+}
+.main-project-own{
+    float: left;
+    width: 40%;
+    height: 60vh;
+    margin-left: 80px;
+    margin-top: 30px;
+
+}
+.project-show{
+    border: 4px solid black;
+    width: 80%;
+    margin: auto;
+    height: 50vh;
+    overflow: hidden;
+    border-radius: 10px;
+    border-color: rgb(211, 191, 191);
+}
+.hidden{
+    transition: all 1s linear;
+}
+.project-show:hover .hidden{
+        transform: translateY(-50%);
+        background:rgb(0, 75, 128);
+}
+.project-name{
+    width: 50%;
+    margin-left: 60px;
+    height: 40px;
+    color: whitesmoke;
+}
+.show-work{
+    height: 100%;
+    width: 100%;
+}
+.show-work img{
+    height: 100%;
+}
+.project-name h5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.show-work button{
+    padding: 10px;
+    margin-left: 110px;
+    width: 40%;
+    font-size: 20px;
+    cursor: pointer;
+    background:navy;
+    color: whitesmoke;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.show-work button:hover{
+    background: white;
+    transition: all 0.40s linear;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+.my-footer{
+    height:54.9vh;
+    margin-top: 20px;
+    background: whitesmoke;
+}
+.contact-me{
+    margin: auto;
+    width: 40%;
+    height: 10vh;
+}
+.contact-me h2{
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.my-footer-text-wrap{
+    width: 100%;
+    height: 40vh;
+    margin-top: 50px;
+}
+.my-text-own{
+    width: 50%;
+    height: 30vh;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin: auto;
+}
+.my-text-own p{
+    font-size: 30px;
+    text-align: center;
+}
+.icons-wrap{
+    width: 35%;
+    height: 10vh;
+    margin: auto;
+    margin-top: 20px;
+}
+.my-icons{
+    float: left;
+    width: 25%;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 50%;
+    transition: all 0.45s ease-in-out;
+}
+.my-icons:hover{
+    width: 25%;
+    transform: translateY(-5px);
+
+
+}
+.my-icons img{
+    height: 100%;
+    width: 100%;
+}
+.email-wrap{
+    width: 100%;
+    height: 10vh;
+}
+.mail-and-text{
+    float: left;
+    width: 70%;
+    height: 50px;
+    margin: 10px;
+}
+.mailig{
+    width: 8%;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 60px;
+    background: whitesmoke;
+    transition: all 0.45s ease-in-out;
+}
+.mailig:hover{
+    width: 8%;
+    transform: translateY(-5px);
+}
+.mailig img{
+    height: 100%;
+    width: 100%;
+}
+.mail-and-text h5{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.mail-and-text a{
+    color:black;
+    text-decoration: none;
+}
+
+#check{
+    display: none;
+}
+#check:checked ~ nav{
+    display: block;
+}
+label{
+    display: none;
+}

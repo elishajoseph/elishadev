@@ -1,0 +1,298 @@
+@media screen and (max-width: 375px){
+    header{
+        height: 10vh !important;
+    }
+    .home-contain{
+        height: 130vh;
+
+    }
+    .logo{
+        font-size: 15px;
+    }
+    .brand-text{
+        width: 100% !important;
+    }
+    .brand-text h2{
+        font-size: 60px;
+    }
+    .brand-text h2 p{
+        font-size: 70px;
+    }
+    .brand-text h3{
+        font-size: 45px;
+    }
+    .brand-text button{
+        width: 50%;
+        height: 40px;
+    }
+    .about-wrap{
+        height: 200vh !important;
+    }
+    .image-wrap{
+        width: 90% !important;
+        margin-top: 40px !important;
+        margin-right: 20px;
+        height: 60vh !important;
+    }
+    .about-text{
+        width: 100% !important;
+    }
+    .main-about-me{
+        width: 85%;
+        margin-left: 40px !important;
+    }
+    .my-text{
+        width: 100% !important;
+        height: 45vh !important;
+        margin-left: 0 !important;
+        margin-top: 0;
+    }
+    .my-text{
+        margin-top: 20px !important;
+    }
+    .web-develop h2{
+        font-size: 30px !important;
+    }
+    .web-develop h3{
+        font-size: 25px !important;
+    }
+    .my-text p{
+        font-size: 17px !important;
+        margin-left: 10px;
+        font-family:'Times New Roman', Times, serif ;
+    }
+    
+    .skills-words h6{
+        margin-right: 10px;
+    }
+    .main-skill-text{
+        width: 50%;
+        height: 8vh !important;
+    }
+    .services-wrap{
+        height: 200vh;
+    }
+    .what-i-do-wrap{
+        width: 100%;
+    }       
+    .main-service-wrap{
+        width: 90% !important;
+        margin-left: 20px !important;
+    }
+    .services-text p{
+        margin-left: 10px !important;
+        font-size: 17px !important;
+    }
+    .my-blog-wrap{
+        height: 250vh !important;
+    }
+    .mi-blog{
+        width: 100% !important;
+        margin-left: 0;
+    }
+    .mi-blog h2{
+        font-size: 40px !important;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .main-project-own{
+        width: 90% !important;
+        margin-left: 20px;
+        margin-top: 0 !important;
+    }
+    
+    .show-work button{
+        margin-left: 100px !important;
+    }
+    .project-name{
+        margin: auto ;
+    }
+    .project-show{
+        width: 100%;
+    }
+    .online{
+        width: 100%;
+    }
+    .look{
+        width: 100%;
+    }
+    .my-footer{
+        height: 60vh;
+    }
+    .contact-me{
+        width: 100%;
+    }
+    .contact-me h2{
+        margin-top: 60px;
+    }
+    .my-text-own{
+        width: 100%;
+    }
+    .my-icons{
+        width: 30%;
+        height: 40px;
+    }
+    .my-icons:hover{
+        width: 33%;
+    }
+    .mail-and-text h5{
+        font-size: 20px;
+    }
+    .mailig{
+        margin-left: 3px !important;
+    }
+    .mailig{
+        margin-left: 10px;
+        height: 40px;
+        width: 9%;
+    }
+    .mailig:hover{
+        width: 9%;
+    }
+}
+@media screen and (max-width:710px){
+    nav{
+        position: absolute;
+        width: 80%;
+        height: 100vh;
+        background: white;
+        right: 0;
+        top: 0;
+        display: none;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    nav ul li{
+        margin-top: 50px;
+    }
+    
+     nav ul li :hover{
+    transition: all 0.20s ease-in;
+    color:  rgb(0, 75, 128);
+    font-size: 20px;
+}
+    .open-menu{
+        margin-right: 10px;
+
+    }
+    .close-menu{
+        margin-top: 10px;
+    }
+    #check{
+        display: none;
+    }
+    #check:checked ~ nav{
+        display: block;
+
+    }
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    header{
+        height: 15vh;
+    }
+    .logo{
+        width: 100%;
+    }
+    .brand-text{
+        width: 50%;
+    }
+    .brand-text h3{
+        font-size: 40px;
+    }
+    .brand-text button{
+        width: 50%;
+        height: 40px;
+    }
+    .about-wrap{
+        height: 230vh;
+    }
+    .image-wrap{
+        width: 40%;
+        height: 50vh;
+        margin-right: 0;
+    }
+    .image-wrap{
+        margin-right: 20px;
+        margin-top: -300px;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .main-about-me{
+        width: 80%;
+        margin-left: 70px;
+    }
+    .my-text{
+        height: 60vh;
+        margin-top: 0;
+    }
+    .my-text{
+        margin-top: 30px;
+    }
+    .web-develop h2{
+        font-size: 40px;
+    }
+    .web-develop h3{
+        font-size: 33px;
+    }
+    .my-text p{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .what-i-do-wrap{
+        width: 100%;
+    }
+    .main-service-wrap{
+        width: 70%;
+        margin-left: 100px;
+    }
+    .services-text p{
+        font-size: 22px;
+        margin-left: 30px;
+    }
+    .my-blog-wrap{
+        height: 400vh;
+    }
+    .mi-blog h2{
+        font-size: xx-large;
+    }
+
+    .main-project-own{
+        width: 80%; 
+        margin-top: 70px;
+    }
+    .online{
+        width: 100%;
+    }
+    .mailig{
+        margin-left: 0;
+        width: 10%;
+    }
+    .my-icons{
+            width: 30%;
+            height: 45px;
+    }
+    
+    .my-icons:hover{
+        width: 33%;
+    }
+    .mailig:hover{
+        width: 9%;
+    }
+    .show-work button{
+        margin-left: 150px;
+    }
+    .main-skill-text{
+        height: 50px;
+
+    }
+}
